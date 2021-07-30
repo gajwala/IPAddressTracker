@@ -1,0 +1,27 @@
+.search {
+  display: flex;
+  width: 90%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.search_input {
+  font-size: 18px;
+  width: 90%;
+  max-width: 400px;
+  height: 25px;
+  padding: 10px 20px;
+  outline: none;
+  border: 0;
+  border-radius: 15px 0px 0px 15px;
+}
+.search_button {
+  font-size: 25px;
+  border: 0;
+  height: 45px;
+  width: 50px;
+  outline: none;
+  color: aliceblue;
+  background-color: black;
+  border-radius: 0px 15px 15px 0px;
+}

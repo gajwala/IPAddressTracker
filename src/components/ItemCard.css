@@ -1,0 +1,28 @@
+.item-card {
+  width: 25%;
+  height: 50px;
+  padding: 10px 10px;
+  border-right: 1px solid #c7c6c6;
+}
+.item-card :last-child {
+  border-right: 0;
+}
+.item-card__title {
+  font-size: 10px;
+  font-weight: lighter;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+@media (max-width: 380px) {
+  .item-card {
+    width: 80%;
+    border-right: 0;
+  }
+  .item-card__title {
+    text-align: center;
+  }
+  .item-card__value {
+    text-align: center;
+  }
+}
